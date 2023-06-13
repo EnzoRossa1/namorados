@@ -15,40 +15,24 @@ body {
 }
 .container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
   }
   
-  .column {
-    flex-basis: 30%;
-    background-color: lightgray;
-    padding: 10px;
-    box-sizing: border-box;
-    
-  }
 .caixa {
-    margin-top: 30px;
+    margin-top: 50px;
     width: 700px;
     height: 500px;
     background-color: #fff;
     border-radius: 15px;
+    margin-left: 300px;
 }
 
-.arrow1 {
-    margin-top: 220px;
-    width: 0;
-    height: 0;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-bottom: 40px solid black;
-    cursor: pointer;
-  }
-  .arrow2 {
-    align-content: center;
-    margin-top: 220px;
-    width: 0;
-    height: 0;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-bottom: 40px solid black;
-    cursor: pointer;
-  }
+.button-container {
+  margin-left: 620px;
+  margin-top: 30px;
+}
+
+.img {
+  text-align: center;
+  margin-top: 140px;
+}
